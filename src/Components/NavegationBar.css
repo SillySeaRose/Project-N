@@ -25,6 +25,7 @@ ul{
     color: rgb(74, 74, 206);
     text-shadow: 2px 4px rgb(21, 14, 132);
     transition: color 0.5s ease;
+    cursor: url(./Sprites/cursorPointer2.png), pointer;
 }
 
 .link:hover{

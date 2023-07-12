@@ -1,0 +1,17 @@
+@font-face {
+    font-family: pixelFont ;
+    src: url(./Font/04B_30__.TTF);
+}
+
+.background{
+    color: red;
+}
+
+.websiteTitle{
+    font-family: pixelFont;
+    font-size: 10em;
+    color: rgb(52, 165, 52);
+    margin-top: 10%;
+    text-align: center;
+    text-shadow: 4px 4px rgb(133, 214, 125),8px 8px rgb(214, 243, 212);
+}

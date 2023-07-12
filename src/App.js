@@ -9,13 +9,12 @@ function App() {
   return (
     <> 
     {/* Routes Area */}
-      <NavegationBar>
-        <Routes>
+      <NavegationBar></NavegationBar>
+      <Routes>
           <Route path='/' element={<Home/>}></Route>
           <Route path='shop' element={<Shop/>}></Route>
           <Route path='about' element={<About/>}></Route>
         </Routes>
-      </NavegationBar>
     </>
   );
 }
