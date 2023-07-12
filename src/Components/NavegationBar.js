@@ -11,12 +11,14 @@ const NavegationBar = () => {
                 <NavLink to='/' className='link' >Home</NavLink>
             </li>
             <li>
-                <NavLink to='/shop' className='link'>Shop</NavLink>
+                <NavLink to='/shop' className='link'>Gallery</NavLink>
             </li>
             <li>
                 <NavLink to='/about' className='link'>About</NavLink>
             </li>
         </ul>
+
+        
     </nav>
   )
 }

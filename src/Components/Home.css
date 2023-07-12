@@ -3,15 +3,45 @@
     src: url(./Font/04B_30__.TTF);
 }
 
-.background{
-    color: red;
+.organizer{
+    display: inline-block;
+}
+
+.titleImageBox{
+    /* border: 2px red solid; */
+    width: max-content;
+    height: max-content;
+    margin-left: 75px;
 }
 
 .websiteTitle{
     font-family: pixelFont;
-    font-size: 10em;
+    font-size: 5em;
     color: rgb(52, 165, 52);
-    margin-top: 10%;
-    text-align: center;
     text-shadow: 4px 4px rgb(133, 214, 125),8px 8px rgb(214, 243, 212);
+}
+
+.homeShowCase{
+    border-radius: 5px;
+    width: max-content;
+    height: max-content;
+    border: 2px lightgreen solid;
+    display: flex;
+    position: absolute;
+    top: 40%;
+    left: 30%;
+}
+
+.nftImagesShowCase{
+    border: lightblue 2px solid;
+    width: 300px;
+    height: 300px;
+    margin: 10px;
+}
+
+.spaceShip{
+    width: 200px;
+    height: 200px;
+    border: 2px solid green;
+    margin-left: 50px;
 }
