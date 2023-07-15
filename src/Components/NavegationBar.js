@@ -16,9 +16,13 @@ const NavegationBar = () => {
             <li>
                 <NavLink to='/about' className='link'>About</NavLink>
             </li>
+            <div className='toolbox'>
+                <p className='login'>Login</p>
+                <input className='searchTool' type='text' placeholder="Search"/>
+            </div>
         </ul>
 
-        
+       
     </nav>
   )
 }

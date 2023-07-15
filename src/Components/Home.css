@@ -11,12 +11,13 @@
     /* border: 2px red solid; */
     width: max-content;
     height: max-content;
-    margin-left: 75px;
+    margin-left: 20%;
+    
 }
 
 .websiteTitle{
     font-family: pixelFont;
-    font-size: 5em;
+    font-size: 6em;
     color: rgb(52, 165, 52);
     text-shadow: 4px 4px rgb(133, 214, 125),8px 8px rgb(214, 243, 212);
 }
@@ -25,19 +26,37 @@
     border-radius: 5px;
     width: max-content;
     height: max-content;
-    border: 2px lightgreen solid;
+    /* border: 2px lightgreen solid; */
     display: flex;
     position: absolute;
-    top: 40%;
-    left: 30%;
+    top: 35%;
+    left: 9%;
+    z-index: -1;
 }
 
 .nftImagesShowCase{
-    border: lightblue 2px solid;
-    width: 300px;
-    height: 300px;
+    /* border: lightblue 2px solid; */
+    width: 400px;
+    height: 400px;
     margin: 10px;
 }
+
+.n1{
+    background-image: url(./Sprites/nft1.png);
+    background-size: cover;
+    
+}
+
+.n2{
+    background-image: url(./Sprites/nft2.png);
+    background-size: cover;
+}
+
+.n3{
+    background-image: url(./Sprites/nft3.png);
+    background-size: cover;
+}
+
 
 .spaceShip{
     width: 200px;

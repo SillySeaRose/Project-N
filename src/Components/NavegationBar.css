@@ -10,9 +10,10 @@ nav{
 }
 
 ul{
+    width:97%;
+    float: left;
     list-style-type: none;
     /* border: 2px solid red; */
-    margin: 5px;
     margin-top: 3%;
     display: flex;
     align-items: center;
@@ -27,8 +28,29 @@ ul{
     text-shadow: 2px 4px rgb(21, 14, 132);
     transition: color 0.5s ease;
     cursor: url(./Sprites/cursorPointer2.png), pointer;
+    margin-right: 30px;
 }
 
 .link:hover{
     color: rgb(12, 171, 73);;
+}
+
+.toolbox{
+    /* border:  2px solid red; */
+    margin-top: 10px;
+    display: flex;
+    float: right;
+}
+
+.login{
+    font-family: pixelFont;
+    margin-right: 20px;
+    color: green;
+}
+
+.searchTool{
+   height: 20px;
+   margin-top: 10px;
+   font-family: pixelFont;
+   background-color: rgba(255, 255, 255, 0.175);
 }
